@@ -50,10 +50,18 @@
 
 }
 
+.de{
+    width: 600px;
+    display: grid;
+    grid-gap: 20px;
+
+    
+}
 .d{
     width: 300px;
     height: 200px;
     background-color: gray;
+    
     
 }
 
@@ -61,8 +69,7 @@
     width: 300px;
     height: 200px;
     background-color: gray;
-    justify-self: center;
-    margin: auto;
+    
     
 }
 
