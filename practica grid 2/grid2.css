@@ -1,0 +1,109 @@
+.cubo1{
+    grid-area: cubo1;
+    background-color:blue;
+    padding: 1%;
+}
+
+.cubo2{
+    grid-area: cubo2;
+    display: grid;
+    background-color:lightgray;
+    padding: 20px;
+    justify-content: center;
+    grid-gap: 20px;
+}
+.a{
+    width: 90px;
+    height: 90px;
+    background-color: gray;
+    margin: auto;
+}
+
+.b{
+    width: 350px;
+    height: 20px;
+    background-color: gray;
+    
+}
+    
+.cubo3{
+    grid-area:cubo3 ;
+    background-color: green;
+    padding: 15%;
+}
+
+
+.cubo4{
+    grid-area: cubo4;
+    background-color: lightgray;
+    padding: 10%;
+    display: grid;
+    grid-gap: 20px;
+    
+}
+
+.c{
+    width: 350px;
+    height: 20px;
+    background-color: gray;
+    justify-self: center;
+
+}
+
+.d{
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    
+}
+
+.e{
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+    justify-self: center;
+    
+}
+
+.cubo5{
+    grid-area: cubo5;
+    background-color: violet;
+    padding: 10%;
+}
+
+.cubo6{
+    grid-area: cubo6;
+    background-color:lightgray;
+    padding: 10%;
+}
+
+.cubo7{
+    grid-area: cubo7;
+    background-color:orangered;
+    padding: 10%;
+}
+
+.cubo8{
+    grid-area: cubo8;
+    background-color: blue;
+    padding: 1%;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-areas: 
+    'cubo1 cubo1 '
+    'cubo2 cubo2'
+    'cubo2 cubo2'
+    'cubo2 cubo2'
+    'cubo3 cubo3'
+    'cubo3 cubo3'
+    'cubo4 cubo4'
+    'cubo5 cubo5'
+    'cubo6 cubo6'
+    'cubo7 cubo7'
+    'cubo8 cubo8';
+
+    grid-gap: 10px;
+    padding: 20px;
+}

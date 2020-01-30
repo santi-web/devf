@@ -1,0 +1,68 @@
+.cubo1{
+    grid-area: cubo1;
+    background-color: red;
+    padding: 10%;
+}
+
+.cubo2{
+    grid-area: cubo2;
+    background-color:red;
+    padding: 20px;
+}
+
+.cubo3{
+    grid-area: cubo3;
+    background-color: yellow;
+    padding: 20px;
+}
+
+.cubo4{
+    grid-area: cubo4;
+    background-color: violet;
+    padding: 20px;
+}
+
+.cubo5{
+    grid-area: cubo5;
+    background-color: violet;
+    padding: 20px;
+}
+
+.cubo6{
+    grid-area: cubo6;
+    background-color: blue;
+    padding: 20px;
+}
+
+.cubo7{
+    grid-area: cubo7;
+    background-color: blue;
+    padding: 20px;
+}
+
+.cubo8{
+    grid-area: cubo8;
+    background-color: blue;
+    padding: 20px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-areas: 
+    'cubo1 cubo1 cubo1 cubo2'
+    'cubo1 cubo1 cubo1 cubo2'
+    'cubo3 cubo3 cubo4 cubo4'
+    'cubo3 cubo3 cubo4 cubo4'
+    'cubo3 cubo3 cubo4 cubo4'
+    'cubo3 cubo3 cubo4 cubo4'
+    'cubo3 cubo3 cubo5 cubo5'
+    'cubo3 cubo3 cubo5 cubo5'
+    'cubo3 cubo3 cubo5 cubo5'
+    'cubo6 cubo7 cubo7 cubo8'
+    'cubo6 cubo7 cubo7 cubo8'
+    'cubo6 cubo7 cubo7 cubo8';
+
+    grid-gap: 10px;
+    padding: 20px;
+
+}
